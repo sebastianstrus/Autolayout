@@ -44,11 +44,13 @@ class PageCell: UICollectionViewCell {
     
 
     
+
+    
     
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        backgroundColor = .purple
+        //backgroundColor = .purple
         addSubview(descriptionTextView)
         setupLayout()
         
